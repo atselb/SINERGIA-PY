@@ -1,0 +1,41 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+#.env
+#.env.local
+
+# Reportes y datos generados
+reports/*
+data/output/
+*.log
+
+# Archivos sin versionar
+*.xlsx
+*.csv
+*.xls
+*.pdf
