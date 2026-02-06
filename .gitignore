@@ -31,11 +31,14 @@ Thumbs.db
 
 # Reportes y datos generados
 reports/*
-data/output/
+!reports/.gitkeep
+data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
 *.log
 
 # Archivos sin versionar
-*.xlsx
+#*.xlsx
 *.csv
 *.xls
 *.pdf
