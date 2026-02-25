@@ -9,7 +9,7 @@ ENV = os.getenv("ENV", "EQU")
 SAP_BASE_URL = {
     "EDU": "http://amsdevecc01.claro.amx:8000",
     "EQU": "http://abapvip.claro.amx:8000",
-    "PRD": "http://amsprdecc01.claro.amx:8000"
+    "EPU": "http://amsprdecc01.claro.amx:8000"
 }
 
 SAP_CLIENT = os.getenv("SAP_CLIENT", "100")
