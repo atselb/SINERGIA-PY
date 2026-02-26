@@ -38,7 +38,7 @@ data/output/*
 *.log
 
 # Archivos sin versionar
-#*.xlsx
+*.xlsx
 *.csv
 *.xls
 *.pdf
