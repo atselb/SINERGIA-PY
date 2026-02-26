@@ -32,7 +32,8 @@ Thumbs.db
 # Reportes y datos generados
 reports/*
 !reports/.gitkeep
-data/input/.gitkeep
+data/input/*
+!data/input/.gitkeep
 data/output/*
 !data/output/.gitkeep
 *.log
