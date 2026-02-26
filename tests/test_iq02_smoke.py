@@ -1,8 +1,11 @@
 import pytest
+import os
 from pathlib import Path
 
 from src.utils.excel_io import ExcelConfig, iter_rows, write_rows_xlsx
 from src.services.iq02_service import IQ02Service
+
+EXCEL_PATH = Path(os.getenv("EXCEL_PATH", "data/input/CorregirSIMS.xlsx"))
 
 # @pytest.mark.smoke
 # def test_iq02_run_smoke(sap_session):
@@ -58,7 +61,7 @@ def test_iq02_steps_smoke2(sap_session):
 def test_iq02_steps_smoke_excel(sap_session):
 
     cfg = ExcelConfig(
-        path=Path("data/input/CorregirSIMS.xlsx"),
+        path=EXCEL_PATH,
         sheet="iq09"
     )
 
